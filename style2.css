@@ -1,0 +1,62 @@
+.A{
+  height: 25vh;
+  width: full;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+ 
+}
+.main{
+    display: flex;
+    height: 75vh;
+   
+    border: 2px solid black;
+}
+.F{
+    border: 2px solid red;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.B{
+    border: 2px solid red;
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.parent{
+    display: flex;
+   
+    /* border: 2px solid black; */
+}
+.C{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 20vw;
+
+}
+.D{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 20vw;
+    height: 35vh ;
+
+}
+.E{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 20vw;
+
+}

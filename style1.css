@@ -1,0 +1,48 @@
+.A{
+  height: 50px;
+  width: full;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.parent{
+    display: flex;
+}
+.B{
+  border: 2px solid black;
+  height: 87vh;
+  margin-right: 5px;
+  width: 65vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.C{
+border: 2px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 35vw;
+}
+
+@media only screen and (max-width: 600px) {
+   .parent{
+    display: flex;
+    flex-direction: column;
+   }
+   .C{
+    width: 100vw;
+
+   }
+   .B{
+    width: 100vw;
+    margin-bottom: 5px;
+   }
+   .A{
+    width: 100vw;
+   }
+    
+}
