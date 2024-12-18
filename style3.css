@@ -1,0 +1,102 @@
+.container{
+   
+}
+
+.A{
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.section{
+    display: flex;
+    border: 2px solid black;
+    height: 75vh;
+}
+.B{
+    
+    border: 2px solid black;
+    height: 100%;
+    width: 35%;
+    
+    
+    
+}
+.C{
+    
+    border: 2px solid black;
+     height: 100%;
+    width: 35%;
+    
+    
+}
+.D{
+    
+    border: 2px solid black;
+     height: 100%;
+    width: 35%;
+    
+    
+}
+.E{
+    
+    border: 2px solid black;
+     height: 100%;
+    width: 35%;
+    
+    
+}
+.F{
+    
+    border: 2px solid black;
+     height: 100%;
+    width: 35%;
+    
+}
+.G{
+    
+    border: 2px solid black;
+     height: 100%;
+    width: 35%;
+    
+    
+}
+.parent{
+    border: 2px solid red;
+    width: 75%;
+   
+   
+}
+.parent1{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    height: 50%;
+    border: 2px solid blue;
+    gap: 2px;
+}
+.parent2{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    height: 50%;
+    border: 2px solid blue;
+     gap: 2px;
+}
+@media only screen and (max-width: 600px) {
+  .section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;;
+  }
+  .parent{
+    width: 100%;
+  }
+  
+    
+}
