@@ -11,30 +11,28 @@
     height: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
+
+
 .section{
     display: flex;
     border: 2px solid black;
     height: 75vh;
 }
+
 .B{
-    
     border: 2px solid black;
     height: 100%;
     width: 35%;
-    
-    
-    
 }
+
 .C{
-    
-    border: 2px solid black;
-     height: 100%;
-    width: 35%;
-    
-    
+    /* Add missing closing brace for .C class */
+    border: 2px solid blue;
+    height: 100%;
+    width: 65%;
 }
+
 .D{
     
     border: 2px solid black;
@@ -98,5 +96,4 @@
     width: 100%;
   }
   
-    
 }
